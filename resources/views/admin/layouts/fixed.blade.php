@@ -69,8 +69,8 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('dist/js/demo.js') }}"></script>
 
+@yield('plugin-css')
 @yield('plugin')
-
 @yield('script')
 
 <script>
